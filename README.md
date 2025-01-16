@@ -48,7 +48,7 @@
 
 ---
 
-## Featured Project: KKOMO ADOPT
+## Featured Project: KKOMO ADOPT (https://github.com/Kwak-DH/kkomoadopt)
 ### 프로젝트 개요
 - **개발 기간**: 2024.10.24 ~ 2024.12.17
 - **목표**: 유기견 보호소 정보 제공, 입양 절차 간소화 및 정보 접근성 향상
