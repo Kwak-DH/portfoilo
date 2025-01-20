@@ -14,6 +14,7 @@
               <li><b>이름:</b> 곽대훈</li>
               <li><b>Email:</b> eogns6595@naver.com</li>
               <li><b>GitHub:</b> <a href="https://github.com/Kwak-DH">Kwak-DH</a></li>
+              <li><b>Notion:</b> <a href="https://www.notion.so/0829React-useRef-de4e667cf39c4366bdace56d8f70d266?pvs=4">kdh's-notion</a></li>
             </ul>
           </td>
         </tr>
