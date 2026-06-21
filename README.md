@@ -1,77 +1,293 @@
-# Kwak Daehoon's Portfolio
+# Kwak Daehoon — Frontend Developer
 
 <table>
   <tr>
     <td>
-      <img src="https://i.imgur.com/rMUVpTN.jpeg" alt="Profile Image" width="200" style="border-radius: 10px;">
+      <img src="https://i.imgur.com/rMUVpTN.jpeg" alt="Profile" width="180" style="border-radius: 12px;">
     </td>
-    <td>
-      <table>
-        <tr>
-          <td>
-            <h3>Contact</h3>
-            <ul>
-              <li><b>이름:</b> 곽대훈</li>
-              <li><b>Email:</b> eogns6595@naver.com</li>
-              <li><b>GitHub:</b> <a href="https://github.com/Kwak-DH">Kwak-DH</a></li>
-              <li><b>Notion:</b> <a href="https://strong-iodine-bf5.notion.site/1813ffb1f473808b9332cb5b73ca59bf?pvs=4">kdh's-notion</a></li>
-              <li><b>Tistory:</b> <a href="https://eogns6595.tistory.com/">DH tistory</a></li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h3>About Me</h3>
-            <ul>
-              <li>🌱 현재 공부 중: Spring Boot, Node.js, React</li>
-              <li>🎯 목표: 사용자 중심의 UI/UX 설계와 안정적인 서버 환경 구축</li>
-              <li>⚡ 한 줄 소개: 팀 협업과 효율적인 문제 해결을 중요시합니다.</li>
-              <li>🏆<strong>수상내역</strong>:
-                <ul>
-                  <li> 프론트엔드 구현 및 백엔드개발을 위한 풀스택 인재양성 <strong>최우수상</strong> 수상</li>
-                  <li> 프론트엔드 구현 및 백엔드개발을 위한 풀스택 인재양성 <strong>특모범상</strong> 수상</li>
-                </ul></li> 
-              <li>🎓 교육: 한국소프트웨어인재개발원 (2024.06.27 ~ 2024.12.17)</li>
-            </ul>
-          </td>
-        </tr>
-      </table>
+    <td style="padding-left: 24px;">
+      <h3>Contact</h3>
+      <ul>
+        <li><b>이름:</b> 곽대훈</li>
+        <li><b>Email:</b> eogns6595@naver.com</li>
+        <li><b>GitHub:</b> <a href="https://github.com/Kwak-DH">github.com/Kwak-DH</a></li>
+        <li><b>Notion:</b> <a href="https://strong-iodine-bf5.notion.site/1813ffb1f473808b9332cb5b73ca59bf?pvs=4">kdh's notion</a></li>
+        <li><b>Blog:</b> <a href="https://eogns6595.tistory.com/">Tistory</a></li>
+      </ul>
+      <h3>About</h3>
+      <p>Vue 3 기반 실무형 웹 애플리케이션 개발에 집중하고 있는 프론트엔드 개발자입니다.<br>
+      복잡한 통계 데이터 시각화, 권한 기반 관리자 시스템, AI 연동 인터페이스 등<br>
+      단순 CRUD를 넘어선 업무형 시스템 개발 경험을 보유하고 있습니다.</p>
+      <ul>
+        <li>🏆 프론트엔드 구현 및 백엔드 개발을 위한 풀스택 인재양성 <b>최우수상</b></li>
+        <li>🏆 프론트엔드 구현 및 백엔드 개발을 위한 풀스택 인재양성 <b>특모범상</b></li>
+        <li>🎓 한국소프트웨어인재개발원 (2024.06 ~ 2024.12)</li>
+        <li>🌱 현재 학습 중: Spring Boot, Node.js, React</li>
+      </ul>
     </td>
   </tr>
 </table>
 
 ---
 
-## Skills & Tools
+## Tech Stack
 
-| **Category**         | **Details**                                                                 |
-|-----------------------|-----------------------------------------------------------------------------|
-| **Languages**         | JavaScript (React, Node.js), Java (Spring Boot)                            |
-| **Frameworks/Libraries** | React, Node.js, Spring Boot                                              |
-| **Database**          | MySQL (설계 및 쿼리 최적화)                                                |
-| **Tools**             | Git, GitHub, Webpack, Figma, IntelliJ IDEA, VS Code                       |
-| **Other**             | API 설계 및 문서화 (Notion), 팀 커뮤니케이션 (Microsoft Teams)              |
-
----
-
-## Featured Project: KKOMO ADOPT (https://github.com/Kwak-DH/kkomoadopt)
-### 프로젝트 개요
-- **개발 기간**: 2024.10.24 ~ 2024.12.17
-- **목표**: 유기견 보호소 정보 제공, 입양 절차 간소화 및 정보 접근성 향상
-
-### **사용 기술**
-- **프론트엔드**: React, JavaScript, HTML, CSS
-- **백엔드**: Spring Boot, Node.js
-- **데이터베이스**: MySQL
-- **기타 도구**: Git, GitHub, Figma
-
-### **주요 역할**
-- **프론트엔드 개발**: UI 설계 및 React 컴포넌트 구현 및 메인 페이지 제작
-- **백엔드 개발**: RESTful API 설계 및 구현
-- **데이터베이스 관리**: MySQL 스키마 설계 및 쿼리 최적화
-- **팀 협업**: Git을 활용한 코드 리뷰 및 버전 관리
+| 분류 | 기술 |
+|------|------|
+| **Frontend** | Vue 3 (Composition API, `<script setup>`), React, JavaScript (ES6+) |
+| **State / Routing** | Vuex, Vue Router |
+| **Data Visualization** | Chart.js (Bar, Doughnut, Stacked, Mixed, Drill-down) |
+| **Backend** | Spring Boot, Node.js, MyBatis |
+| **Database** | MySQL, PostgreSQL |
+| **HTTP / API** | Axios, REST API |
+| **Style** | CSS3, SCSS, Scoped CSS |
+| **Tools** | Git, GitHub, Figma, VS Code, IntelliJ IDEA |
 
 ---
 
-감사합니다! 제 포트폴리오를 확인해 주셔서 감사합니다. ✨  
-더 다양한 정보는 제 GitHub를 참고해 주세요. 😊
+## Projects
+
+### 1. EOSA — AI 기반 감사 분석 플랫폼
+
+> 조선시대 암행어사(御史) 제도에서 착안한 AI 감사 분석 웹 애플리케이션
+
+**역할:** 프론트엔드 개발 전담  
+**링크:** 사내 시스템 (로그인 필요)
+
+**기술 스택**
+
+`Vue 3` `Composition API` `Vuex` `Vue Router` `Axios` `Chart.js` `Scoped CSS`
+
+**주요 구현 내용**
+
+- Header / Footer / HomeView / AdminView / MyPage 전 영역 컴포넌트 설계 및 구현
+- `loginType` (ADMIN / USER) Vuex 상태 기반 조건부 네비게이션 분기 처리
+- 화이트 카드 레이아웃과 `#2563eb` 어센트 컬러 기반 일관된 디자인 시스템 적용
+- Noto Sans KR 폰트 기반 한국어 최적화 타이포그래피 구성
+
+---
+
+### 2. AI Chat Room — AI 채팅 인터페이스
+
+> 실제 서비스형 구조로 설계한 Vue 3 기반 AI 대화 시스템
+
+**역할:** 프론트엔드 개발 전담
+
+**기술 스택**
+
+`Vue 3` `Vuex` `Axios` `Composition API` `Scoped CSS`
+
+**주요 구현 내용**
+
+- 채팅방 생성 / 조회 / 삭제 / 목록 관리 등 실제 서비스 수준의 채팅 흐름 구현
+- **자동 채팅방 생성:** 첫 질문 입력 시점에만 채팅방을 생성해 빈 방 누적 문제 방지
+- **자동 제목 생성:** 질문 첫 28자를 채팅방 제목으로 자동 변환 (공백 정리 포함)
+- **타이핑 애니메이션:** AI 응답과 초기 안내 문구를 글자 단위로 순차 출력하는 인터랙션 구현
+- **자동 스크롤:** `nextTick()` 활용, DOM 렌더링 완료 후 최하단 자동 이동
+- 컴포넌트 분리: `ChatSidebar` / `ChatMessageList` / `ChatMessageItem` / `ChatInput` / `TypingTitle`
+- 반응형 레이아웃: 데스크탑(좌우 분할) / 모바일(상하 구조) 대응
+
+**구현 흐름**
+
+```
+질문 입력 → 사용자 메시지 출력 → askAi API 호출 → AI 응답 수신 → 타이핑 애니메이션 출력
+```
+
+---
+
+### 3. PCOW — 내부통제 자가점검 솔루션
+
+> 리스크 데이터 시각화와 체크리스트 기반 자가점검 기능을 갖춘 기업용 관리자 시스템
+
+**역할:** 프론트엔드 개발 전담
+
+**기술 스택**
+
+`Vue 3` `Composition API` `Vue Router` `Axios` `Chart.js` `SCSS`
+
+**주요 구현 내용**
+
+- **권한 기반 통계 시스템:** user / admin / sAdmin 3단계 권한에 따라 API 및 화면 구조 분기
+- **Drill-down 차트 구조:** 부서 통계 클릭 → 담당자 통계 → 리스크 상세까지 단계적 탐색 구현
+- **다양한 차트 구현:** Doughnut / Bar / Stacked Bar / Mixed Dual Axis / Dynamic Chart
+- **체크리스트 시스템:** 3점 이하 항목 입력 시 개선사항 필수 작성 조건 기반 렌더링
+- **공통 formatter 함수:** API마다 다른 key 구조를 차트 공통 형식으로 변환해 재사용성 확보
+
+**트러블슈팅**
+
+| 문제 | 원인 | 해결 |
+|------|------|------|
+| 컴포넌트 조건문 복잡도 증가 | 하나의 컴포넌트에서 전 권한 처리 시도 | 권한 기준 컴포넌트 분리 + API 역할 명확화 |
+| API 데이터 구조 불일치 | 응답 key 값이 API마다 상이 | 공통 `formatChartData()` formatter 작성 |
+
+---
+
+### 4. ICIK — 한국내부통제협회 리스크 관리 시스템
+
+> 체크리스트 자가점검부터 통계 대시보드까지 내부통제 업무 전반을 디지털화한 관리자 플랫폼
+
+**링크:** [icikorea.kr](https://icikorea.kr)  
+**역할:** 프론트엔드 개발 전담
+
+**기술 스택**
+
+`Vue 3` `JavaScript` `Vue Router` `Axios` `Chart.js` `CSS3`
+
+**프로젝트 구조**
+
+```
+src/
+├── api/
+├── components/
+├── pages/
+├── router/
+├── layouts/     ← Router 기반 Layout 분리 (Header / Content / Footer)
+├── assets/
+└── styles/
+```
+
+**주요 구현 내용**
+
+- **리스크 관리:** 리스크 점수 및 잔여 리스크 점수 동시 관리, 부서·담당자별 데이터 조회
+- **체크리스트 자가점검:** 3점 이하 항목 개선사항 강제 입력 — 실무 내부통제 프로세스 반영
+- **통계 대시보드:** 리스크 분포도(LOW/MEDIUM/HIGH), 부서별/담당자별 평균, 완료율 등 종합 시각화
+- **Drill-down 대시보드:** 전체 부서 → 특정 부서 → 담당자 → 리스크 상세까지 단계별 탐색
+- **위험도 시각화:** 1~2점 LOW / 3점 MEDIUM / 4~5점 HIGH 기준 색상 분류 및 도넛 차트
+- **권한 기반 시스템:** 일반 사용자 / admin / sAdmin별 조회 데이터 및 화면 구성 분리
+
+**개선 방향 (예정)**
+
+Pinia 상태 관리 도입, 공통 차트 컴포넌트 추상화, TypeScript 적용
+
+---
+
+### 5. ACE — 감사인 역량진단 시스템
+
+> 리스크 평가 → 점검 → 통계 → 분석 흐름이 유기적으로 연결된 기업형 내부감사 통합 플랫폼
+
+**역할:** 프론트엔드 개발 전담
+
+**기술 스택**
+
+`Vue 3` `Composition API` `Vue Router` `Axios` `Chart.js`
+
+**주요 구현 내용**
+
+- **내부감사 프로세스 표준화:** 수기/엑셀 기반 감사 프로세스를 웹 시스템으로 전환
+- **리스크 기반 감사 체계:** 리스크 점수 / 잔여 리스크 / 부서별 위험도를 정량적으로 분석
+- **통계 대시보드:** 종합·부서별·담당자별·대분류/중분류 통계, 리스크 점수 분포도 제공
+- **BI 스타일 Drill-down:** 부서 클릭 → 담당자 → 리스크 상세까지 단계적 데이터 탐색
+- **Route → Layout → Page → Components** 구조 설계로 대규모 관리자 시스템 유지보수성 확보
+- **Chart.js 고급 활용:** 클릭 이벤트 기반 Drill-down, 혼합형 차트, 커스텀 Tooltip, 실시간 데이터 갱신
+
+> 리스크 관리 및 내부통제 프로세스를 데이터 시각화와 통계 분석 중심으로 구현한 기업형 감사 관리 시스템
+
+---
+
+### 6. ezims — IMS 가중치 기반 기관 통계 시스템 개선
+
+> 단순 평균 기반 통계 로직의 구조적 결함을 분석하고, 실제 IMS 평가 산식으로 전면 재구성한 개선 프로젝트
+
+**역할:** 백엔드 개선 및 SQL 재설계
+
+**기술 스택**
+
+`Java` `Spring MVC` `MyBatis` `PostgreSQL` `CTE` `Window Function`
+
+**문제 상황**
+
+기존 기관 통계는 `AVG()` 반복 구조로 구현되어, 세부평가 가중치(`evaluation_weight`) / Standard 가중치 / Principle 가중치가 전혀 반영되지 않았음. 결과적으로 **기관 상세 화면 점수 ≠ 기관 통계 화면 점수**라는 불일치 발생.
+
+**개선 산식 구조**
+
+```
+1단계: evaluation_score × evaluation_weight
+2단계: SUM(weighted_point) / SUM(evaluation_weight)         → controlObjectiveRating
+3단계: controlObjectiveRating × standard_weight
+4단계: SUM(weighted_control_objective) / SUM(standard_weight) → tacticalOrganizationalObjectives100
+5단계: principle_score × principle_weight
+6단계: SUM(tactical_objective_principle)                     → domainTacticalSum
+7단계: SUM(domainTacticalSum)                               → totalScore (최종)
+```
+
+**주요 구현 내용**
+
+- **CTE 기반 계층 구조 쿼리 설계:** `standard_level` → `principle_level` → `principle_scored` → `domain_rollup` → `grand_total` 단계별 분리
+- **Window Function 활용:** `SUM(...) OVER (PARTITION BY ...)` 로 그룹별 가중 평균 계산
+- **신규 Bean 설계:** `AllOrgIMSStatsBean` 분리로 기존 Bean 구조 충돌 해소
+- **API 구조 신설:** `/gias/allOrgIMSWeightStats` — Controller → Service → Dao → Mapper 전 계층 구현
+
+**결과:** 기관 상세 점수 = 기관 통계 점수 — 동일 산식 기반으로 수치 완전 일치
+
+---
+
+### 7. ezQar — 컨베이어 벨트 로고 슬라이더
+
+> CSS 애니메이션만으로 구현한 무한 루프 파트너 로고 슬라이더 (JS interval 미사용)
+
+**링크:** [ezqar.com](https://ezqar.com)  
+**역할:** 프론트엔드 기능 개발
+
+**기술 스택**
+
+`Vue 3` `Composition API` `CSS Animation` `Flex Layout`
+
+**핵심 구현**
+
+```javascript
+// 배열 2배 복제로 끊김 없는 무한 루프 구현
+const doubledLogos = computed(() => [...logos, ...logos])
+```
+
+```css
+@keyframes conveyor-scroll {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }  /* 절반 이동 → 끊김 없는 루프 */
+}
+
+.marquee:hover .marquee-inner {
+  animation-play-state: paused;  /* Hover 시 일시정지 — 링크 클릭 편의성 확보 */
+}
+```
+
+**트러블슈팅**
+
+| 문제 | 원인 | 해결 |
+|------|------|------|
+| 애니메이션 종료 시 끊김 | 단일 배열, 빈 공간 발생 | 배열 2배 복제 |
+| `translateX(-100%)` 적용 시 점프 | 전체 width 기준 이동으로 두 번째 배열까지 사라짐 | `-50%`로 수정 |
+
+**성능 고려:** `transform` 기반으로 reflow 최소화 — JS interval 없이 순수 CSS로 구현
+
+---
+
+### 8. KKOMO ADOPT — 유기견 입양 플랫폼
+
+> 유기견 보호소 정보 제공 및 입양 절차 간소화를 목표로 한 풀스택 웹 서비스
+
+**기간:** 2024.10 ~ 2024.12  
+**GitHub:** [github.com/Kwak-DH/kkomoadopt](https://github.com/Kwak-DH/kkomoadopt)  
+**수상:** 프론트엔드 구현 및 풀스택 인재양성 **최우수상**
+
+**기술 스택**
+
+`React` `Spring Boot` `Node.js` `MySQL` `Git` `Figma`
+
+**주요 역할**
+
+- React 컴포넌트 UI 설계 및 메인 페이지 구현
+- RESTful API 설계 및 구현 (Spring Boot)
+- MySQL 스키마 설계 및 쿼리 최적화
+- Git 기반 코드 리뷰 및 버전 관리
+
+---
+
+## Education
+
+**한국소프트웨어인재개발원**  
+프론트엔드 구현 및 백엔드 개발을 위한 풀스택 인재양성 과정  
+2024.06.27 ~ 2024.12.17
+
+---
+
+추가적인 코드 샘플 및 프로젝트 상세 내용은 [GitHub](https://github.com/Kwak-DH)을 참고해 주세요.
