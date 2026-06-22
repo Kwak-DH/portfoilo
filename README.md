@@ -260,8 +260,14 @@ const doubledLogos = computed(() => [...logos, ...logos])
 ```
 
 ```css
-@keyframes conveyor-scroll {
-  0%   { transform: translateX(0%); }
+.marquee-inner {
+  display: flex;
+  width: max-content; /* 콘텐츠 너비를 명시적으로 확보 — 슬라이드 끊김 방지 */
+  animation: marquee-scroll 60s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }  /* 절반 이동 → 끊김 없는 루프 */
 }
 
