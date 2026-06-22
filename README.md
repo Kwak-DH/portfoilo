@@ -105,6 +105,13 @@
 | 컴포넌트 조건문 복잡도 증가 | 하나의 컴포넌트에서 전 권한 처리 시도 | 권한 기준 컴포넌트 분리 + API 역할 명확화 |
 | API 데이터 구조 불일치 | 응답 key 값이 API마다 상이 | 공통 `formatChartData()` formatter 작성 |
 
+**시연 GIF**
+
+| 기능 | 미리보기 |
+|------|----------|
+| Chart.js 샘플 차트 구현 | ![pcow_samplechart](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/pcow_samplechart.gif) |
+| 관리자 통계 차트 (마스킹 처리) | ![pcow_uadminstac](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/pcow_uadminstac.gif) |
+
 ---
 
 ### 3. ICIK — 한국내부통제협회 리스크 관리 시스템
