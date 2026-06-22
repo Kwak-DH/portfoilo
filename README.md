@@ -11,6 +11,8 @@
         <li><b>이름:</b> 곽대훈</li>
         <li><b>Email:</b> eogns6595@naver.com</li>
         <li><b>GitHub:</b> <a href="https://github.com/Kwak-DH">github.com/Kwak-DH</a></li>
+        <li><b>Notion:</b> <a href="https://strong-iodine-bf5.notion.site/1813ffb1f473808b9332cb5b73ca59bf?pvs=4">kdh's notion</a></li>
+        <li><b>Blog:</b> <a href="https://eogns6595.tistory.com/">Tistory</a></li>
       </ul>
       <h3>About</h3>
       <p>Vue 3 기반 실무형 웹 애플리케이션 개발에 집중하고 있는 프론트엔드 개발자입니다.<br>
@@ -112,6 +114,8 @@
 **링크:** [icikorea.kr](https://icikorea.kr)  
 **역할:** 프론트엔드 개발 전담
 
+![ICIK Demo](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik_admin1.gif)
+
 **기술 스택**
 
 `Vue 3` `JavaScript` `Vue Router` `Axios` `Chart.js` `CSS3`
@@ -135,7 +139,7 @@ src/
 - **체크리스트 자가점검:** 3점 이하 항목 개선사항 강제 입력 — 실무 내부통제 프로세스 반영
 - **통계 대시보드:** 리스크 분포도(LOW/MEDIUM/HIGH), 부서별/담당자별 평균, 완료율 등 종합 시각화
 - **Drill-down 대시보드:** 전체 부서 → 특정 부서 → 담당자 → 리스크 상세까지 단계별 탐색
-- **위험도 시각화:** LOW / MEDIUM / HIGH 기준 색상 분류 및 도넛 차트
+- **위험도 시각화:** 1~2점 LOW / 3점 MEDIUM / 4~5점 HIGH 기준 색상 분류 및 도넛 차트
 - **권한 기반 시스템:** 일반 사용자 / admin / sAdmin별 조회 데이터 및 화면 구성 분리
 
 **개선 방향 (예정)**
