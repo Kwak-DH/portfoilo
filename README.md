@@ -1,4 +1,4 @@
-# Kwak Daehoon — Frontend Developer
+# Kwak Daehoon - Frontend Developer
 
 <table>
   <tr>
@@ -41,13 +41,13 @@
 | **Database** | MySQL, PostgreSQL |
 | **HTTP / API** | Axios, REST API |
 | **Style** | CSS3, SCSS, Scoped CSS |
-| **Tools** | Git, GitHub, Figma, VS Code, IntelliJ IDEA |
+| **Tools** | Git, GitHub, Figma, VS Code, IntelliJ IDEA, Eclipse, Fork, Gitlab, Postman, DBeaver, Cursor |
 
 ---
 
 ## Projects
 
-### 1. EOSA — AI 기반 감사 분석 플랫폼
+### 1. EOSA - AI 기반 감사 분석 플랫폼
 
 > 조선시대 암행어사(御史) 제도에서 착안한 AI 감사 분석 웹 애플리케이션
 
@@ -66,7 +66,7 @@
 - 화이트 카드 레이아웃과 `#2563eb` 어센트 컬러 기반 일관된 디자인 시스템 적용
 - Noto Sans KR 폰트 기반 한국어 최적화 타이포그래피 구성
 - **AI 채팅 기능 통합:** 채팅방 생성 / 조회 / 삭제 / 목록 관리 등 실서비스 수준의 AI 대화 흐름을 EOSA 내부 기능으로 구현
-  - 첫 질문 입력 시점에만 채팅방 생성 — 빈 방 누적 방지
+  - 첫 질문 입력 시점에만 채팅방 생성 - 빈 방 누적 방지
   - 질문 첫 28자를 채팅방 제목으로 자동 변환 (공백 정리 포함)
   - 타이핑 애니메이션: AI 응답을 글자 단위로 순차 출력
   - `nextTick()` 활용 자동 스크롤 처리
@@ -80,7 +80,7 @@
 
 **시연 GIF**
 
-> 오픈 전 샘플 페이지 기준 — 현재 서비스와 구성 동일
+> 오픈 전 샘플 페이지 기준 - 현재 서비스와 구성 동일
 
 | 기능 | 미리보기 |
 |------|----------|
@@ -90,7 +90,7 @@
 
 ---
 
-### 2. PCOW — 내부통제 자가점검 솔루션
+### 2. PCOW - 내부통제 자가점검 솔루션
 
 > 리스크 데이터 시각화와 체크리스트 기반 자가점검 기능을 갖춘 기업용 관리자 시스템
 
@@ -126,7 +126,7 @@
 
 ---
 
-### 3. ICIK — 한국내부통제협회 리스크 관리 시스템
+### 3. ICIK - 한국내부통제협회 리스크 관리 시스템
 
 > 체크리스트 자가점검부터 통계 대시보드까지 내부통제 업무 전반을 디지털화한 관리자 플랫폼
 
@@ -155,10 +155,10 @@ src/
 
 - **권한 기반 관리자 시스템:** 일반 사용자 / admin / sAdmin별 조회 데이터 및 화면 구성 분리
 - **리스크 관리:** 리스크 점수 및 잔여 리스크 점수 동시 관리, 부서·담당자별 데이터 조회
-- **체크리스트 자가점검:** 3점 이하 항목 개선사항 강제 입력 — 실무 내부통제 프로세스 반영
+- **체크리스트 자가점검:** 3점 이하 항목 개선사항 강제 입력 - 실무 내부통제 프로세스 반영
 - **통계 대시보드:** 리스크 분포도(LOW/MEDIUM/HIGH), 부서별/담당자별 평균, 완료율 등 종합 시각화
 - **Drill-down 대시보드:** 전체 부서 → 특정 부서 → 담당자 → 리스크 상세까지 단계별 탐색
-- **위험도 시각화:** 1~2점 LOW / 3점 MEDIUM / 4~5점 HIGH 기준 색상 분류 및 프로그레스 바 표현
+- **위험도 시각화:**  LOW(1,2점) / MEDIUM(3점) / HIGH(4,5점) 기준 색상 분류 및 프로그레스 바 표현
 - **팝업 이미지 기능:** 메인 페이지 공지/배너 팝업 구현
 - **카카오 지도 API:** 협회 소개 페이지 내 지도 연동
 - **설문조사 / 역량진단:** 진단 절차 페이지 및 진단 결과 페이지 구현
@@ -181,7 +181,7 @@ src/
 
 ---
 
-### 4. ACE — 감사인 역량진단 시스템
+### 4. ACE - 감사인 역량진단 시스템
 
 > 리스크 평가 → 점검 → 통계 → 분석 흐름이 유기적으로 연결된 기업형 내부감사 통합 플랫폼
 
@@ -201,13 +201,13 @@ src/
 - **BI 스타일 Drill-down:** 부서 클릭 → 담당자 → 리스크 상세까지 단계적 데이터 탐색
 - **Route → Layout → Page → Components** 구조 설계로 대규모 관리자 시스템 유지보수성 확보
 - **Chart.js 고급 활용:** 클릭 이벤트 기반 Drill-down, 혼합형 차트, 커스텀 Tooltip, 실시간 데이터 갱신
-- **Vite 빌드 도구 채택:** Webpack 대비 빠른 프로덕션 빌드 속도를 이유로 직접 선택 — 배포 사이클 단축에 기여
+- **Vite 빌드 도구 채택:** Webpack 대비 빠른 프로덕션 빌드 속도를 이유로 직접 선택 - 배포 사이클 단축에 기여
 
 > 리스크 관리 및 내부통제 프로세스를 데이터 시각화와 통계 분석 중심으로 구현한 기업형 감사 관리 시스템
 
 ---
 
-### 5. ezims — IMS 가중치 기반 기관 통계 시스템 개선
+### 5. ezims - IMS 가중치 기반 기관 통계 시스템 개선
 
 > 단순 평균 기반 통계 로직의 구조적 결함을 분석하고, 실제 IMS 평가 산식으로 전면 재구성한 개선 프로젝트
 
@@ -237,16 +237,17 @@ src/
 **주요 구현 내용**
 
 - **신규 Bean 설계:** `AllOrgIMSStatsBean` 분리로 기존 Bean 구조 충돌 해소
-- **API 구조 신설:** `/gias/allOrgIMSWeightStats` — Controller → Service → Dao → Mapper 전 계층 구현
+- **API 구조 신설:** `/gias/allOrgIMSWeightStats` - Controller → Service → Dao → Mapper 전 계층 구현
 
-**결과:** 기관 상세 점수 = 기관 통계 점수 — 동일 산식 기반으로 수치 완전 일치
+**결과:** 기관 상세 점수 = 기관 통계 점수 - 동일 산식 기반으로 수치 완전 일치
 
 ---
 
-### 6. ezQar — 컨베이어 벨트 로고 슬라이더
+### 6. ezQar - 컨베이어 벨트 로고 슬라이더
 
-> CSS 애니메이션만으로 구현한 무한 루프 파트너 로고 슬라이더 (JS interval 미사용)
+> CSS 애니메이션만으로 구현한 무한 루프 파트너 로고 슬라이더
 
+**기간:** 2025.03.17 ~ 2025.03.21  
 **링크:** [ezqar.com](https://www.ezqar.com/login)  
 **역할:** 프론트엔드 기능 개발
 
@@ -264,7 +265,7 @@ const doubledLogos = computed(() => [...logos, ...logos])
 ```css
 .marquee-inner {
   display: flex;
-  width: max-content; /* 콘텐츠 너비를 명시적으로 확보 — 슬라이드 끊김 방지 */
+  width: max-content; /* 콘텐츠 너비를 명시적으로 확보 - 슬라이드 끊김 방지 */
   animation: marquee-scroll 60s linear infinite;
 }
 
@@ -274,7 +275,7 @@ const doubledLogos = computed(() => [...logos, ...logos])
 }
 
 .marquee:hover .marquee-inner {
-  animation-play-state: paused;  /* Hover 시 일시정지 — 링크 클릭 편의성 확보 */
+  animation-play-state: paused;  /* Hover 시 일시정지 - 링크 클릭 편의성 확보 */
 }
 ```
 
@@ -285,7 +286,7 @@ const doubledLogos = computed(() => [...logos, ...logos])
 | 애니메이션 종료 시 끊김 | 단일 배열, 빈 공간 발생 | 배열 2배 복제 |
 | `translateX(-100%)` 적용 시 점프 | 전체 width 기준 이동으로 두 번째 배열까지 사라짐 | `-50%`로 수정 |
 
-**성능 고려:** `transform` 기반으로 reflow 최소화 — 순수 CSS Animation으로 구현
+**성능 고려:** `transform` 기반으로 reflow 최소화 - 순수 CSS Animation으로 구현
 
 **시연 GIF**
 
@@ -295,7 +296,7 @@ const doubledLogos = computed(() => [...logos, ...logos])
 
 ---
 
-### 7. KKOMO ADOPT — 유기견 입양 플랫폼
+### 7. KKOMO ADOPT - 유기견 입양 플랫폼
 
 > 유기견 보호소 정보 제공 및 입양 절차 간소화를 목표로 한 풀스택 웹 서비스
 
