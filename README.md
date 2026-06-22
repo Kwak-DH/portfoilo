@@ -41,7 +41,7 @@
 | **Database** | MySQL, PostgreSQL |
 | **HTTP / API** | Axios, REST API |
 | **Style** | CSS3, SCSS, Scoped CSS |
-| **Tools** | Git, GitHub, Figma, VS Code, IntelliJ IDEA |
+| **Tools** | Git, GitHub, Figma, VS Code, IntelliJ IDEA, Eclipse, Fork, Gitlab, Postman, DBeaver, Cursor |
 
 ---
 
