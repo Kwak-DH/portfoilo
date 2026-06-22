@@ -11,8 +11,6 @@
         <li><b>이름:</b> 곽대훈</li>
         <li><b>Email:</b> eogns6595@naver.com</li>
         <li><b>GitHub:</b> <a href="https://github.com/Kwak-DH">github.com/Kwak-DH</a></li>
-        <li><b>Notion:</b> <a href="https://strong-iodine-bf5.notion.site/1813ffb1f473808b9332cb5b73ca59bf?pvs=4">kdh's notion</a></li>
-        <li><b>Blog:</b> <a href="https://eogns6595.tistory.com/">Tistory</a></li>
       </ul>
       <h3>About</h3>
       <p>Vue 3 기반 실무형 웹 애플리케이션 개발에 집중하고 있는 프론트엔드 개발자입니다.<br>
