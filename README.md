@@ -114,11 +114,9 @@
 **링크:** [icikorea.kr](https://icikorea.kr)  
 **역할:** 프론트엔드 개발 전담
 
-![ICIK Demo](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik_admin1.gif)
-
 **기술 스택**
 
-`Vue 3` `JavaScript` `Vue Router` `Axios` `Chart.js` `CSS3`
+`Vue 3` `JavaScript` `Vue Router` `Axios` `Chart.js` `Kakao Maps API` `CSS3`
 
 **프로젝트 구조**
 
@@ -135,16 +133,31 @@ src/
 
 **주요 구현 내용**
 
+- **권한 기반 관리자 시스템:** 일반 사용자 / admin / sAdmin별 조회 데이터 및 화면 구성 분리
 - **리스크 관리:** 리스크 점수 및 잔여 리스크 점수 동시 관리, 부서·담당자별 데이터 조회
 - **체크리스트 자가점검:** 3점 이하 항목 개선사항 강제 입력 — 실무 내부통제 프로세스 반영
 - **통계 대시보드:** 리스크 분포도(LOW/MEDIUM/HIGH), 부서별/담당자별 평균, 완료율 등 종합 시각화
 - **Drill-down 대시보드:** 전체 부서 → 특정 부서 → 담당자 → 리스크 상세까지 단계별 탐색
-- **위험도 시각화:** 1~2점 LOW / 3점 MEDIUM / 4~5점 HIGH 기준 색상 분류 및 도넛 차트
-- **권한 기반 시스템:** 일반 사용자 / admin / sAdmin별 조회 데이터 및 화면 구성 분리
+- **위험도 시각화:** 1~2점 LOW / 3점 MEDIUM / 4~5점 HIGH 기준 색상 분류 및 프로그레스 바 표현
+- **팝업 이미지 기능:** 메인 페이지 공지/배너 팝업 구현
+- **카카오 지도 API:** 협회 소개 페이지 내 지도 연동
+- **설문조사 / 역량진단:** 진단 절차 페이지 및 진단 결과 페이지 구현
+- **게시판:** 게시글 목록 및 상세 조회 구현
+- **용어사전 / 매트릭스 사전:** 클릭 시 드롭다운 전개, 라디오 버튼 선택에 따라 샘플 문서 동적 표시
 
-**개선 방향 (예정)**
+**시연 GIF**
 
-Pinia 상태 관리 도입, 공통 차트 컴포넌트 추상화, TypeScript 적용
+| 기능 | 미리보기 |
+|------|----------|
+| 어드민 로그인 및 메인 이동 | ![admin1](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik_admin1.gif) |
+| 어드민 게시글 수정 / 삭제 | ![admin2](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik_admin2.gif) |
+| 메인 페이지 및 팝업 기능 | ![icik1](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik1.gif) |
+| 협회 소개 및 카카오 지도 | ![icik2](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik2.gif) |
+| 설문조사 페이지 | ![icik3](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik3.gif) |
+| 역량진단 절차 | ![icik4](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik4.gif) |
+| 역량진단 결과 | ![icik5](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik5.gif) |
+| 게시판 | ![icik6](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik6.gif) |
+| 용어사전 / 매트릭스 사전 | ![icik7](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/icik7.gif) |
 
 ---
 
