@@ -77,6 +77,16 @@
 질문 입력 → 사용자 메시지 출력 → askAi API 호출 → AI 응답 수신 → 타이핑 애니메이션 출력
 ```
 
+**시연 GIF**
+
+> 오픈 전 샘플 페이지 기준 — 현재 서비스와 구성 동일
+
+| 기능 | 미리보기 |
+|------|----------|
+| 메인 페이지 | ![eosamain](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/eosamain.gif) |
+| AI 채팅 페이지 | ![eosa_chat](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/eosa_chat.gif) |
+| 통계 페이지 | ![eosa_static](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/eosa_static.gif) |
+
 ---
 
 ### 2. PCOW — 내부통제 자가점검 솔루션
