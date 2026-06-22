@@ -212,7 +212,7 @@ src/
 
 **기술 스택**
 
-`Java` `Spring MVC` `MyBatis` `PostgreSQL` `CTE` `Window Function`
+`Java` `Spring MVC` `MyBatis` `PostgreSQL`
 
 **문제 상황**
 
@@ -232,8 +232,6 @@ src/
 
 **주요 구현 내용**
 
-- **CTE 기반 계층 구조 쿼리 설계:** `standard_level` → `principle_level` → `principle_scored` → `domain_rollup` → `grand_total` 단계별 분리
-- **Window Function 활용:** `SUM(...) OVER (PARTITION BY ...)` 로 그룹별 가중 평균 계산
 - **신규 Bean 설계:** `AllOrgIMSStatsBean` 분리로 기존 Bean 구조 충돌 해소
 - **API 구조 신설:** `/gias/allOrgIMSWeightStats` — Controller → Service → Dao → Mapper 전 계층 구현
 
@@ -243,7 +241,7 @@ src/
 
 ### 6. ezQar — 컨베이어 벨트 로고 슬라이더
 
-> CSS 애니메이션만으로 구현한 무한 루프 파트너 로고 슬라이더 (JS interval 미사용)
+> CSS 애니메이션만으로 구현한 무한 루프 파트너 로고 슬라이더
 
 **링크:** [ezqar.com](https://www.ezqar.com/login)  
 **역할:** 프론트엔드 기능 개발
@@ -283,7 +281,13 @@ const doubledLogos = computed(() => [...logos, ...logos])
 | 애니메이션 종료 시 끊김 | 단일 배열, 빈 공간 발생 | 배열 2배 복제 |
 | `translateX(-100%)` 적용 시 점프 | 전체 width 기준 이동으로 두 번째 배열까지 사라짐 | `-50%`로 수정 |
 
-**성능 고려:** `transform` 기반으로 reflow 최소화 — JS interval 없이 순수 CSS로 구현
+**성능 고려:** `transform` 기반으로 reflow 최소화 — 순수 CSS Animation으로 구현
+
+**시연 GIF**
+
+| 기능 | 미리보기 |
+|------|----------|
+| 푸터 로고 슬라이더 및 Family Site | ![ezQar_footer](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/ezQar_footer.gif) |
 
 ---
 
