@@ -187,7 +187,7 @@ src/
 
 **기술 스택**
 
-`Vue 3` `Composition API` `Vue Router` `Axios` `Chart.js`
+`Vue 3` `Composition API` `Vue Router` `Vite` `Axios` `Chart.js`
 
 **주요 구현 내용**
 
@@ -197,6 +197,7 @@ src/
 - **BI 스타일 Drill-down:** 부서 클릭 → 담당자 → 리스크 상세까지 단계적 데이터 탐색
 - **Route → Layout → Page → Components** 구조 설계로 대규모 관리자 시스템 유지보수성 확보
 - **Chart.js 고급 활용:** 클릭 이벤트 기반 Drill-down, 혼합형 차트, 커스텀 Tooltip, 실시간 데이터 갱신
+- **Vite 빌드 도구 채택:** Webpack 대비 빠른 프로덕션 빌드 속도를 이유로 직접 선택 — 배포 사이클 단축에 기여
 
 > 리스크 관리 및 내부통제 프로세스를 데이터 시각화와 통계 분석 중심으로 구현한 기업형 감사 관리 시스템
 
