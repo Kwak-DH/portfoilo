@@ -66,7 +66,7 @@
 - 화이트 카드 레이아웃과 `#2563eb` 어센트 컬러 기반 일관된 디자인 시스템 적용
 - Noto Sans KR 폰트 기반 한국어 최적화 타이포그래피 구성
 - **AI 채팅 기능 통합:** 채팅방 생성 / 조회 / 삭제 / 목록 관리 등 실서비스 수준의 AI 대화 흐름을 EOSA 내부 기능으로 구현
-  - 첫 질문 입력 시점에만 채팅방 생성 — 빈 방 누적 방지
+  - 첫 질문 입력 시점에만 채팅방 생성 - 빈 방 누적 방지
   - 질문 첫 28자를 채팅방 제목으로 자동 변환 (공백 정리 포함)
   - 타이핑 애니메이션: AI 응답을 글자 단위로 순차 출력
   - `nextTick()` 활용 자동 스크롤 처리
@@ -80,7 +80,7 @@
 
 **시연 GIF**
 
-> 오픈 전 샘플 페이지 기준 — 현재 서비스와 구성 동일
+> 오픈 전 샘플 페이지 기준 - 현재 서비스와 구성 동일
 
 | 기능 | 미리보기 |
 |------|----------|
@@ -155,7 +155,7 @@ src/
 
 - **권한 기반 관리자 시스템:** 일반 사용자 / admin / sAdmin별 조회 데이터 및 화면 구성 분리
 - **리스크 관리:** 리스크 점수 및 잔여 리스크 점수 동시 관리, 부서·담당자별 데이터 조회
-- **체크리스트 자가점검:** 3점 이하 항목 개선사항 강제 입력 — 실무 내부통제 프로세스 반영
+- **체크리스트 자가점검:** 3점 이하 항목 개선사항 강제 입력 - 실무 내부통제 프로세스 반영
 - **통계 대시보드:** 리스크 분포도(LOW/MEDIUM/HIGH), 부서별/담당자별 평균, 완료율 등 종합 시각화
 - **Drill-down 대시보드:** 전체 부서 → 특정 부서 → 담당자 → 리스크 상세까지 단계별 탐색
 - **위험도 시각화:** LOW(1,2점) / MEDIUM(3점) / HIGH(4,5점) 기준 색상 분류 및 프로그레스 바 표현
@@ -201,7 +201,7 @@ src/
 - **BI 스타일 Drill-down:** 부서 클릭 → 담당자 → 리스크 상세까지 단계적 데이터 탐색
 - **Route → Layout → Page → Components** 구조 설계로 대규모 관리자 시스템 유지보수성 확보
 - **Chart.js 고급 활용:** 클릭 이벤트 기반 Drill-down, 혼합형 차트, 커스텀 Tooltip, 실시간 데이터 갱신
-- **Vite 빌드 도구 채택:** Webpack 대비 빠른 프로덕션 빌드 속도를 이유로 직접 선택 — 배포 사이클 단축에 기여
+- **Vite 빌드 도구 채택:** Webpack 대비 빠른 프로덕션 빌드 속도를 이유로 직접 선택 - 배포 사이클 단축에 기여
 
 > 리스크 관리 및 내부통제 프로세스를 데이터 시각화와 통계 분석 중심으로 구현한 기업형 감사 관리 시스템
 
@@ -237,9 +237,9 @@ src/
 **주요 구현 내용**
 
 - **신규 Bean 설계:** `AllOrgIMSStatsBean` 분리로 기존 Bean 구조 충돌 해소
-- **API 구조 신설:** `/gias/allOrgIMSWeightStats` — Controller → Service → Dao → Mapper 전 계층 구현
+- **API 구조 신설:** `/gias/allOrgIMSWeightStats` - Controller → Service → Dao → Mapper 전 계층 구현
 
-**결과:** 기관 상세 점수 = 기관 통계 점수 — 동일 산식 기반으로 수치 완전 일치
+**결과:** 기관 상세 점수 = 기관 통계 점수 - 동일 산식 기반으로 수치 완전 일치
 
 ---
 
@@ -265,7 +265,7 @@ const doubledLogos = computed(() => [...logos, ...logos])
 ```css
 .marquee-inner {
   display: flex;
-  width: max-content; /* 콘텐츠 너비를 명시적으로 확보 — 슬라이드 끊김 방지 */
+  width: max-content; /* 콘텐츠 너비를 명시적으로 확보 - 슬라이드 끊김 방지 */
   animation: marquee-scroll 60s linear infinite;
 }
 
@@ -275,7 +275,7 @@ const doubledLogos = computed(() => [...logos, ...logos])
 }
 
 .marquee:hover .marquee-inner {
-  animation-play-state: paused;  /* Hover 시 일시정지 — 링크 클릭 편의성 확보 */
+  animation-play-state: paused;  /* Hover 시 일시정지 - 링크 클릭 편의성 확보 */
 }
 ```
 
@@ -286,7 +286,7 @@ const doubledLogos = computed(() => [...logos, ...logos])
 | 애니메이션 종료 시 끊김 | 단일 배열, 빈 공간 발생 | 배열 2배 복제 |
 | `translateX(-100%)` 적용 시 점프 | 전체 width 기준 이동으로 두 번째 배열까지 사라짐 | `-50%`로 수정 |
 
-**성능 고려:** `transform` 기반으로 reflow 최소화 — 순수 CSS Animation으로 구현
+**성능 고려:** `transform` 기반으로 reflow 최소화 - 순수 CSS Animation으로 구현
 
 **시연 GIF**
 
