@@ -241,7 +241,7 @@ src/
 
 ### 6. ezQar — 컨베이어 벨트 로고 슬라이더
 
-> CSS 애니메이션만으로 구현한 무한 루프 파트너 로고 슬라이더
+> CSS 애니메이션만으로 구현한 무한 루프 파트너 로고 슬라이더 (JS interval 미사용)
 
 **링크:** [ezqar.com](https://www.ezqar.com/login)  
 **역할:** 프론트엔드 기능 개발
@@ -309,6 +309,16 @@ const doubledLogos = computed(() => [...logos, ...logos])
 - RESTful API 설계 및 구현 (Spring Boot)
 - MySQL 스키마 설계 및 쿼리 최적화
 - Git 기반 코드 리뷰 및 버전 관리
+
+**시연 GIF**
+
+| 기능 | 미리보기 |
+|------|----------|
+| 메인 페이지 | ![kkomoadopt1](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/Kkomoadopt1.gif) |
+| 서비스 목적 소개 | ![kkomoadopt2](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/Kkomoadopt2.gif) |
+| 커뮤니티 | ![kkomoadopt3](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/Kkomoadopt3.gif) |
+| 마이페이지 | ![kkomoadopt4](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/Kkomoadopt4.gif) |
+| 어드민 페이지 | ![kkomoadopt5](https://raw.githubusercontent.com/Kwak-DH/portfoilo/main/assets/Kkomoadopt5.gif) |
 
 ---
 
